@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.08a3b6ee.css",
-    "main.js": "/static/js/main.5e85c670.js",
-    "static/js/787.4e26a7e6.chunk.js": "/static/js/787.4e26a7e6.chunk.js",
-    "static/media/Konami.png": "/static/media/Konami.1f3578f318b82aa1774e.png",
-    "static/media/WeatherApp.png": "/static/media/WeatherApp.5b40db51ab06a43deeb0.png",
-    "static/media/CoffeeProject.png": "/static/media/CoffeeProject.edacd156f3a7100e008a.png",
-    "index.html": "/index.html",
-    "main.08a3b6ee.css.map": "/static/css/main.08a3b6ee.css.map",
-    "main.5e85c670.js.map": "/static/js/main.5e85c670.js.map",
-    "787.4e26a7e6.chunk.js.map": "/static/js/787.4e26a7e6.chunk.js.map"
+    "main.css": "/mariogranados.github.io/static/css/main.08a3b6ee.css",
+    "main.js": "/mariogranados.github.io/static/js/main.6273d12a.js",
+    "static/js/787.4e26a7e6.chunk.js": "/mariogranados.github.io/static/js/787.4e26a7e6.chunk.js",
+    "static/media/Konami.png": "/mariogranados.github.io/static/media/Konami.1f3578f318b82aa1774e.png",
+    "static/media/WeatherApp.png": "/mariogranados.github.io/static/media/WeatherApp.5b40db51ab06a43deeb0.png",
+    "static/media/CoffeeProject.png": "/mariogranados.github.io/static/media/CoffeeProject.edacd156f3a7100e008a.png",
+    "index.html": "/mariogranados.github.io/index.html",
+    "main.08a3b6ee.css.map": "/mariogranados.github.io/static/css/main.08a3b6ee.css.map",
+    "main.6273d12a.js.map": "/mariogranados.github.io/static/js/main.6273d12a.js.map",
+    "787.4e26a7e6.chunk.js.map": "/mariogranados.github.io/static/js/787.4e26a7e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08a3b6ee.css",
-    "static/js/main.5e85c670.js"
+    "static/js/main.6273d12a.js"
   ]
 }
