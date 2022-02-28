@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.08a3b6ee.css",
-    "main.js": "/static/js/main.d18f30e5.js",
+    "main.css": "/static/css/main.2114feaf.css",
+    "main.js": "/static/js/main.cf953233.js",
     "static/js/787.160bbb55.chunk.js": "/static/js/787.160bbb55.chunk.js",
     "static/media/Konami.png": "/static/media/Konami.1f3578f318b82aa1774e.png",
     "static/media/WeatherApp.png": "/static/media/WeatherApp.5b40db51ab06a43deeb0.png",
     "static/media/CoffeeProject.png": "/static/media/CoffeeProject.edacd156f3a7100e008a.png",
     "index.html": "/index.html",
-    "main.08a3b6ee.css.map": "/static/css/main.08a3b6ee.css.map",
-    "main.d18f30e5.js.map": "/static/js/main.d18f30e5.js.map",
+    "main.2114feaf.css.map": "/static/css/main.2114feaf.css.map",
+    "main.cf953233.js.map": "/static/js/main.cf953233.js.map",
     "787.160bbb55.chunk.js.map": "/static/js/787.160bbb55.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a3b6ee.css",
-    "static/js/main.d18f30e5.js"
+    "static/css/main.2114feaf.css",
+    "static/js/main.cf953233.js"
   ]
 }
