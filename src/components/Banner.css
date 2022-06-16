@@ -1,0 +1,19 @@
+.banner {
+    height: 90vh;
+    background-color: var(--dark);
+    color: var(--secondary);
+}
+.header {
+    margin-top: 10vh;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.sub-header {
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.text_highlight {
+    color: var(--secondary)
+}
+

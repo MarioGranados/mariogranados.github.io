@@ -1,83 +1,52 @@
-import React, {useState} from "react";
-function Footer() {
+import './Footer.css'
+import {Button} from "./Button";
+import {FaGithubSquare, FaLinkedin} from "react-icons/fa";
 
-    function handleSubmit(e) {
-        e.preventDefault()
-        alert("looks like we've encountered a problem, please try again later! ")
-    }
-
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
-    const [phoneNum, setPhoneNum] = useState('');
-    const [email, setEmail] = useState('')
-    const [messageText, setMessage] = useState('Hi, I love your work! Please contact me as soon as possible!');
-
+const Footer = () => {
     return (
-        <footer>
-            <div className="main_bg text-white">
-                <div className="container">
-                    <div className="row p-5">
-                        <div className="col" data-aos="fade-up">
-                            <div className="display-4">Mario Granados</div>
-                            <div className="text-muted ">Full-Stack Developer</div>
-                            <p className="lead">
-
-                            </p>
-                            <div className="display-4">Follow Me!</div>
-                            <div className="d-flex justify-content-between w-50">
-                                <div className="text-muted"><a href='https://github.com/MarioGranados' className='text-decoration-none green-text'>Github</a></div>
-                                <div className="text-muted"><a href='https://www.linkedin.com/in/mario-granados-18a21b186/' className='text-decoration-none green-text'>LinkedIn</a></div>
-                                <div className="text-muted"><a href='https://www.instagram.com/mariogranados97/' className='text-decoration-none green-text'>Instagram</a></div>
-                            </div>
-
-                        </div>
-                        <div className="col" data-aos="fade-up">
-                            <form onSubmit={handleSubmit}>
-                                <div className="form-row">
-                                    <div className="form-group col-md-6 border-color-red">
-                                        <label htmlFor="firstName">First Name</label>
-                                        <input type="text" className="form-control bg-transparent text-white" id="firstName"
-                                               placeholder="John" value={firstName} onChange={(e) => setFirstName(e.target.value)}/>
-                                    </div>
-                                    <div className="form-group col-md-6 border-color-red">
-                                        <label htmlFor="lastName">Last Name</label>
-                                        <input type="text" className="form-control bg-transparent text-white" id="lastName"
-                                               placeholder="Smith" value={lastName} onChange={e => setLastName(e.target.value)}/>
-                                    </div>
-                                </div>
-                                <div className="form-group ">
-                                    <label htmlFor="phoneNumber">Phone Number</label>
-                                    <input type="tel" className="form-control bg-transparent text-white" id="phoneNumber"
-                                           placeholder="000 000 0000" value={phoneNum} onChange={e => setPhoneNum(e.target.value)}/>
-                                </div>
-                                <div className="form-group">
-                                    <label htmlFor="email">Email</label>
-                                    <input type="email" className="form-control bg-transparent text-white" id="email"
-                                           placeholder="example@email.com" value={email} onChange={e => setEmail(e.target.value)}/>
-                                </div>
-                                <div className="form-group">
-                                    <label htmlFor="message">Message</label>
-                                    <textarea className="form-control bg-transparent text-white" id="message" rows="3" value={messageText} onChange={e => setMessage(e.target.value)}>
-
-                                    </textarea>
-                                </div>
-                                <div className="form-group">
-                                    <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" id="gridCheck"/>
-                                        <label className="form-check-label" htmlFor="gridCheck">
-                                            Subscribe
-                                        </label>
-                                    </div>
-                                </div>
-                                <button type="submit" className="btn btn-outline-light" value={'Submit'}>Send Message</button>
-                            </form>
-                        </div>
+        <>
+            <footer className='footer footer_container'>
+                <div className="row">
+                    <div className="col">
+                        <h4 className='footer_header'>Follow Me On Social Media!</h4>
+                        <a href="/" className='icons'>
+                            <FaGithubSquare/>
+                        </a>
+                        <a href="/" className='icons'>
+                            <FaLinkedin/>
+                        </a>
                     </div>
-                    <div className="text-center p-2">Mario Granados</div>
+                    <div className="col">
+                        <h4 className='footer_header'>Contact Me</h4>
+                        <label htmlFor="fname">
+                            First Name
+                        </label>
+                        <input type="text" className='form_control'/>
+                        <label htmlFor="lname">
+                            Last Name
+                        </label>
+                        <input type="text" className='form_control'/>
+                        <label htmlFor="email">
+                            Email
+                        </label>
+                        <input type="text" className='form_control'/>
+                        <label htmlFor="phone">
+                            Phone Number
+                        </label>
+                        <input type="text" className='form_control'/>
+                        <label htmlFor="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10">
+
+                        </textarea>
+
+                        <Button buttonSize='btn-medium'
+                                buttonStyle='btn-primary'>
+                            Send Message
+                        </Button>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </>
     );
 }
-
-export default Footer;
+export default Footer
